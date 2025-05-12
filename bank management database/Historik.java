@@ -52,9 +52,9 @@ public class Historik extends JFrame {
                         mainPanel.add(transferPanel);
                         mainPanel.add(Box.createVerticalStrut(20));
 
-                        revalidate();
-                        repaint();
                     }
+                    revalidate();
+                    repaint();
                 }
             }
         } catch (SQLException e) {
