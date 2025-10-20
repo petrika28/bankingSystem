@@ -81,8 +81,6 @@ public class ActionService {
         receiver.setSurname(transferSurname);
         client.withdraw(value);
         receiver.add(value);
-        receiver.setName(transferName);
-        receiver.setSurname(transferSurname);
         try {
             DbOperations.updateDb(client);
             DbOperations.updateDb(receiver);
