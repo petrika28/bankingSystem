@@ -4,9 +4,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import javax.swing.JOptionPane;
 
-import com.mysql.cj.protocol.a.SqlDateValueEncoder;
+
+//import com.mysql.cj.protocol.a.SqlDateValueEncoder;
 
 public class DbOperations {
     public static void addUser(Client client) throws SQLException {

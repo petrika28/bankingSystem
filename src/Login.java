@@ -72,7 +72,7 @@ public class Login extends JFrame {
         found = ActionService.LoginCheck(client);
 
         if (!found) {
-            JOptionPane.showMessageDialog(null,"Kredencialet nuk jane te sakta");
+            JOptionPane.showMessageDialog(null, "Kredencialet nuk jane te sakta");
         } else {
             Balanca bal = new Balanca(client);
             dispose();
